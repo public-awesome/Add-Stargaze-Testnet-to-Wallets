@@ -5,13 +5,13 @@ You can follow these steps in Google Chrome, Brave browser, or any other browser
 
 ## Keplr
 
-### 1) Open Keplr wallet, right click on it and click on ``Inspect``.
+### 1) Open Keplr wallet, right-click on it, and click on ``Inspect``.
 
 This will open ``DevTools`` window.
 
 ![](./images/stargaze-testnet-keplr-01.png)
 
-### 2) On the ``DevTools`` window, click on ``Console`` tab.
+### 2) On the ``DevTools`` window, click on the ``Console`` tab.
 
 ![](./images/stargaze-testnet-keplr-02.png)
 
@@ -70,7 +70,7 @@ window.keplr.experimentalSuggestChain({
 });
 ```
 
-### 4) Paste the code in ``Console`` tab.
+### 4) Paste the code in the ``Console`` tab.
 
 ![](./images/stargaze-testnet-keplr-03.png)
 
@@ -95,8 +95,14 @@ window.keplr.experimentalSuggestChain({
 ## Cosmostation
 - (TBU)
 
+![image](https://user-images.githubusercontent.com/6451384/204154092-935309eb-a227-42a5-aa72-40d463aae4be.png)
+
+
 ## Leap
 - (TBU)
+
+![image](https://user-images.githubusercontent.com/6451384/204154095-cdf57f24-2c4f-42ab-a408-78e04c5abba6.png)
+
 
 # How to get $STARS on Stargaze Testnet
 
@@ -105,3 +111,6 @@ window.keplr.experimentalSuggestChain({
 - https://discord.com/channels/755548171941445642/940653213022031912
 
 2. Follow the guide suggested by the bot
+
+![image](https://user-images.githubusercontent.com/6451384/204154109-393de5cb-7894-4a5e-86ac-cf62cf421444.png)
+
