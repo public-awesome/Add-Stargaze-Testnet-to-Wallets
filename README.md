@@ -19,17 +19,10 @@ This will open ``DevTools`` window.
 
 ```js
 window.keplr.experimentalSuggestChain({
-  rpc: 'https://rpc.elgafar-1.stargaze-apis.com/',
-  rest: 'https://rest.elgafar-1.stargaze-apis.com/',
   chainId: 'elgafar-1',
   chainName: 'Stargaze Testnet',
-  stakeCurrency: {
-    coinDenom: 'STARS',
-    coinMinimalDenom: 'ustars',
-    coinDecimals: 6,
-    coinGeckoId: 'stars',
-    coinImageUrl: 'https://stargaze.zone/logo.png',
-  },
+  rpc: 'https://rpc.elgafar-1.stargaze-apis.com/',
+  rest: 'https://rest.elgafar-1.stargaze-apis.com/',
   bip44: {
     coinType: 118,
   },
@@ -57,15 +50,22 @@ window.keplr.experimentalSuggestChain({
       coinDecimals: 6,
       coinGeckoId: 'stargaze',
       coinImageUrl: 'https://stargaze.zone/logo.png',
+      gasPriceStep: {
+        low: 0.0,
+        average: 0.0,
+        high: 0.025,
+      },
     },
   ],
-  coinType: 118,
-  gasPriceStep: {
-    low: 0.0,
-    average: 0.0,
-    high: 0.025,
+  stakeCurrency: {
+    coinDenom: 'STARS',
+    coinMinimalDenom: 'ustars',
+    coinDecimals: 6,
+    coinGeckoId: 'stars',
+    coinImageUrl: 'https://stargaze.zone/logo.png',
   },
-  features: ['stargate', 'ibc-transfer', 'no-legacy-stdTx'],
+  coinType: 118,
+  features: ['ibc-transfer'],
   explorerUrlToTx: 'https://www.mintscan.io/stargaze/txs/{txHash}',
 });
 ```
@@ -110,7 +110,11 @@ window.keplr.experimentalSuggestChain({
 
 - https://discord.com/channels/755548171941445642/940653213022031912
 
-2. Follow the guide suggested by the bot
+2. Copy your stargaze address from your wallet
+3. Send a request in the #faucet channel with a following command:
+
+- `$request YOUR_STARS_ADDRESS`
 
 ![image](https://user-images.githubusercontent.com/6451384/204154109-393de5cb-7894-4a5e-86ac-cf62cf421444.png)
 
+4. The bot will reply with the transaction info
