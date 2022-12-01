@@ -98,12 +98,14 @@ window.keplr.experimentalSuggestChain({
 
 ![](./images/stargaze-testnet-keplr-07.png)
 
+
+
 ## Cosmostation
 
 > download link: https://www.cosmostation.io/wallet/#extension
 
 <p align="center">
-  <img src="hhttps://user-images.githubusercontent.com/6451384/204154092-935309eb-a227-42a5-aa72-40d463aae4be.png">
+  <img src="https://user-images.githubusercontent.com/6451384/204154092-935309eb-a227-42a5-aa72-40d463aae4be.png">
 </p>
 
 ### 1) Open Cosmostation wallet, right-click on it, and click on ``Inspect``.
