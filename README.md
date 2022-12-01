@@ -99,9 +99,67 @@ window.keplr.experimentalSuggestChain({
 ![](./images/stargaze-testnet-keplr-07.png)
 
 ## Cosmostation
-- (TBU)
 
-![image](https://user-images.githubusercontent.com/6451384/204154092-935309eb-a227-42a5-aa72-40d463aae4be.png)
+> download link: https://www.cosmostation.io/wallet/#extension
+
+<p align="center">
+  <img src="hhttps://user-images.githubusercontent.com/6451384/204154092-935309eb-a227-42a5-aa72-40d463aae4be.png">
+</p>
+
+### 1) Open Cosmostation wallet, right-click on it, and click on ``Inspect``.
+
+This will open ``DevTools`` window.
+
+![image](https://user-images.githubusercontent.com/6451384/205151532-c8d381b9-e5a2-41db-8f7f-3c0be4497333.png)
+
+### 2) On the ``DevTools`` window, click on the ``Console`` tab.
+
+![image](https://user-images.githubusercontent.com/6451384/205151772-6351ed75-9e5f-499c-b962-eeb8ed9aa37c.png)
+
+### 3) Copy the following code.
+
+```js
+window.cosmostation.cosmos.request({
+  method: "cos_addChain",
+  params: {
+    chainId: 'elgafar-1',
+    chainName: 'Stargaze Testnet',
+    addressPrefix: 'stars',
+    baseDenom: 'ustars',
+    displayDenom: 'STARS',
+    restURL: 'https://rest.elgafar-1.stargaze-apis.com/',
+    coinType: '118',
+    decimals: 6,
+    gasRate: {
+      low: '0.0',
+      average: '0.0',
+      tiny: '0.025',
+    },
+  },
+});
+```
+
+### 4) Paste the code in the ``Console`` tab.
+
+![image](https://user-images.githubusercontent.com/6451384/205151980-fb782523-05b3-4a8e-85d1-3a73bb8f406a.png)
+
+### 5) Press ``Enter``.
+
+![image](https://user-images.githubusercontent.com/6451384/205152165-c499d334-88e9-4a58-a149-27b32123aa67.png)
+
+### 6) Click ``Confirm`` button on Cosmostation Wallet window.
+
+![image](https://user-images.githubusercontent.com/6451384/205155693-ff8f1e86-4157-4a41-b806-a93c1f93b195.png)
+
+### 7) Close Cosmostation Wallet and re-open it.
+
+### 8) Click on the networks present at top of Cosmostation Wallet,and select ``Stargaze Testnet``.
+
+![image](https://user-images.githubusercontent.com/6451384/205156071-fda9e235-8589-4666-b03b-eae34e983cac.png)
+
+### 9) The wallet is ready and you can copy the address.
+
+![image](https://user-images.githubusercontent.com/6451384/205156198-74d396df-10c5-41ce-9bde-9daf73c4ef6a.png)
 
 
 ## Leap
