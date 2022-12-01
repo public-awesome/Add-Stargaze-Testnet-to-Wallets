@@ -4,6 +4,7 @@ You can follow these steps in Google Chrome, Brave browser, or any other browser
 
 
 ## Keplr
+> download link: https://www.keplr.app/download
 
 ### 1) Open Keplr wallet, right-click on it, and click on ``Inspect``.
 
