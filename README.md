@@ -6,6 +6,11 @@ You can follow these steps in Google Chrome, Brave browser, or any other browser
 ## Keplr
 > download link: https://www.keplr.app/download
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6451384/205146901-66a6c2fe-1a42-46d3-8946-3f83f4684457.png">
+</p>
+
+
 ### 1) Open Keplr wallet, right-click on it, and click on ``Inspect``.
 
 This will open ``DevTools`` window.
