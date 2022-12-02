@@ -165,9 +165,30 @@ window.cosmostation.cosmos.request({
 
 
 ## Leap
-- (TBU)
 
-![image](https://user-images.githubusercontent.com/6451384/204154095-cdf57f24-2c4f-42ab-a408-78e04c5abba6.png)
+> download link: https://www.leapwallet.io/
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6451384/204154095-cdf57f24-2c4f-42ab-a408-78e04c5abba6.png">
+</p>
+
+### 1) Click the hamburger button.
+
+![image](https://user-images.githubusercontent.com/6451384/205367915-c2b02c71-961d-424b-977d-769bbf921633.png)
+
+### 2) Click the `Network` menu under the Preferences category.
+
+![image](https://user-images.githubusercontent.com/6451384/205368066-36dd0e3f-d6be-4dc8-877f-dd5c13d8fef8.png)
+
+### 3) Click the `Testnet` option.
+
+![image](https://user-images.githubusercontent.com/6451384/205368218-19b15f70-d595-47e6-81cf-89bb4e066348.png)
+
+
+### 4) The wallet is ready for testnet and you can copy the address.
+
+![image](https://user-images.githubusercontent.com/6451384/205368356-d549c66a-7708-4055-975e-354fbd81933d.png)
+
 
 
 # How to get $STARS on Stargaze Testnet
